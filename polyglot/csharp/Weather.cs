@@ -1,0 +1,1 @@
+public record Weather(string City,double Temperature,int Humidity,double Wind);public static class WeatherLogic{public static string Summary(Weather w)=>$"{w.City}: {w.Temperature:F1}°C, humidity {w.Humidity}%, wind {w.Wind:F1} km/h";}
